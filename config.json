@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": ""
+  },
+  "text": {
+    "more": "Esta visualização interativa mostra as conexões entre autores estrangeiros no periódico Cadernos Ibero-Americanos de Direito Sanitário (CIADS). Foram considerados apenas autores não brasileiros. Dois nós estão conectados quando os autores publicaram juntos ao menos um artigo. As cores dos nós indicam a nacionalidade dos autores, e o tamanho reflete o grau de colaboração (grau ponderado).",
+    "intro": "Rede de coautoria construída com autores estrangeiros que publicaram no periódico CIADS. Os nós representam autores, as cores indicam o país e as arestas refletem coautorias em artigos.",
+    "title": "Colaboração internacional entre autores estrangeiros no CIADS"
+  },
+  "legend": {
+    "edgeLabel": "Intensidade da colaboração entre dois autores (número de artigos em comum)",
+    "colorLabel": "País",
+    "nodeLabel": "Autores"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "país",
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
